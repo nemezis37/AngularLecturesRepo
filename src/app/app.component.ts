@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recepieBook';
+  sectionName = 'recipes';
+
+  onHeaderSectionChanged(args: {sectionName: string}) {
+    this.sectionName = args.sectionName;
+  }
 }
+
+
