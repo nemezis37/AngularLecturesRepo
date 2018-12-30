@@ -6,12 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'recepieBook';
-  sectionName = 'recipes';
-
-  onHeaderSectionChanged(args: {sectionName: string}) {
-    this.sectionName = args.sectionName;
-  }
+  title = 'recipeBook';
 }
 
 
